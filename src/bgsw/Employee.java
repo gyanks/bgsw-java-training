@@ -1,18 +1,20 @@
 package bgsw;
 
-public class Employee {
+  class Employee {
 
 	// data member
 	// encasulation 
 	
-	private String empName;
+	private  String empName="Rakesh";
 	private int empId;
-	private double salary;
+	private  double salary=100;
 	
 	
 	String fatName;
 	// 
-	
+private void myMethod() {
+	System.out.println(" hiiiii ");
+}
 	
 	
 	/**
@@ -22,9 +24,9 @@ public class Employee {
 	 */
 	public Employee(String empName, int empId, double salary) {
 		super();
-		this.empName = empName;
+		//this.empName = empName;
 		this.empId = empId;
-		this.salary = salary;
+		//this.salary = salary;
 	}
 
 
@@ -114,13 +116,20 @@ public class Employee {
 		double da= salary*.6;
 		double pf= salary*.1;
 		
+		// caculate IncomeTx 
+		
+		// deduct Incomex
+		
 		double gs= salary+hra+da-pf;
 		
 		return gs;
 	}
 	
 	
-	void display (){
+	
+public   void display (){
+	
+	myMethod();
 	
 		System.out.println(" Employee Id "+ empId);
 		System.out.println(" Employee Name "+ empName);
@@ -128,7 +137,7 @@ public class Employee {
 		
 		
 	}
-	
+
 	
 	
 	

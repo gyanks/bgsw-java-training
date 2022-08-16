@@ -21,7 +21,7 @@ boolean
 ================
 
 
-this keyword referers to instace member.
+this keyword reference  to instance  member.
 
 If instance member and local variable have same name then this can be used to identify instance method;
 
@@ -45,12 +45,33 @@ Access Specifier
 ====================
 
 private : class only 
-default : Inside package only 
+default( no specifed)  : Inside package only 
 protected : Inside package  all class  
 			outside package only in derived class 
 public : In all class 
 
 
+
+=============================================================
+
+Date: 16/08/22
+
+------------------------------------
+
+Shape ( base class)
+   
+   abstract area()
+ extends from Shape 
+		 Circle
+		 
+		      + area();
+		
+		Traingle
+		    + area();
+		Rectangle
+            + area();
+            
+            
 
 
 

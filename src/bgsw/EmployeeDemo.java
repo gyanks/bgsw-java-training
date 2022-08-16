@@ -1,9 +1,13 @@
 package bgsw;
 
+import bgsw.client.RB;
 public class EmployeeDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		RB obj;
+		
 		
 		// Instance of Class
 		// reference 
@@ -15,6 +19,8 @@ public class EmployeeDemo {
 		emp.setEmpName("Krishna");
 		emp.setSalary(30650);
 		// abstraction 
+		
+		//emp.calculateGrossSalary();
 		
 		double gs= emp.calculateGrossSalary();
 		
