@@ -71,9 +71,55 @@ Shape ( base class)
 		Rectangle
             + area();
             
+       
+       
+       -------------------
+       
+       
+       final class => not extends
+       
+       final method =>  can not overriden 
+       
+       
+       final variable => can not changed 
+       
             
 
+===============================================
 
+	Date: 17/08/22
+	Session No: 03
+
+	Planned Outcome: 
+     Interface 
+     Java 8 features of Interface
+     Exception 
+     
+     Client server Architecture 
+     
+     -------------------
+     
+     abstract class
+     
+        n method 
+        m abstract 
+     Interface 
+     
+     all abstract methods
+     
+     
+     
+     java 8 Interface 
+     
+      default :  This method will have default defnition written in interface which can be overridden .
+      
+      static :  This method of inteface will be defined in inteface  only and can not be 
+      overriden by implementing class. 
+      
+      
+      
+     
+     
 
 
 
